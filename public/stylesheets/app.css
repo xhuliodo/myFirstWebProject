@@ -1,0 +1,21 @@
+.deleteForm{
+	display: inline;
+}
+
+.img-thumbnail{
+	padding: 0;
+}
+
+.figure-caption{
+	padding: 15px;
+}
+
+.container{
+	margin-top:20px;
+}
+
+div.card.bg-light.card-body{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+

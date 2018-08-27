@@ -1,0 +1,27 @@
+<% include ../partials/header %>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-6 col-md-7 col-sm-8 mx-auto order-0">
+            <h1>Log In</h1>
+            
+            <form  action="/login" method="post">
+                <div class="form-group">
+                    <input class="form-control" type="text"  name="username" placeholder="Enter your username">
+                </div>
+                
+                <div class="form-group">
+                    <input class="form-control" type="password"  name="password" placeholder="Enter your password">
+                </div>
+                
+                <div class="form-group">
+                    <button class="btn btn-primary btn-block">Log In</button>
+                </div>
+                
+                
+            </form>
+            
+            <a href="/campgrounds">Go back view all the campgrounds</a>
+        </div>
+    </div>    
+</div>
+<% include ../partials/footer %>
